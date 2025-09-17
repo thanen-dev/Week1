@@ -15,14 +15,15 @@ int main(void) {
         }
         // Print hashes for the left side of the pyramid
         for (int j = 0; j <= i; j++){
-            printf("#");
+            printf("*");
+
         }
         // Print spaces between the two sides of the pyramid
         printf("  ");
 
         // Print hashes for the right side of the pyramid
         for (int j = 0; j <= i; j++){
-            printf("#");
+            printf("*");
         }
         printf("\n");
     }
